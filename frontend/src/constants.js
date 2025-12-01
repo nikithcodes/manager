@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://task-manager-snyn.onrender.com/api/v1'
+export const BASE_URL = 'https://manager-wpsi.onrender.com/api/v1'
