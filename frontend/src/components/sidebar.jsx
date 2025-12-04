@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* Hamburger button for mobile */}
+      
       <button
         className="md:hidden fixed top-4 left-4 z-50 bg-white p-2 rounded shadow flex flex-col justify-center items-center w-8 h-8"
         onClick={() => setIsOpen(!isOpen)}
@@ -35,7 +35,7 @@ const Sidebar = () => {
       </button>
 
 
-      {/* Sidebar */}
+
       <div
         className={`
           fixed top-0 left-0 h-full bg-white shadow-md flex flex-col w-64
@@ -77,7 +77,7 @@ const Sidebar = () => {
         </nav>
       </div>
 
-      {/* Overlay */}
+      
       {isOpen && (
         <div
           className="fixed inset-0 bg-black opacity-30 z-30 md:hidden"
